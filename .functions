@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Set webguard proxy
+function gpx() {
+	export HTTP_PROXY=http://webguard.gjensidige.no:8080
+	export HTTPS_PROXY=$HTTP_PROXY
+	export http_proxy=$HTTP_PROXY
+	export https_proxy=$HTTP_PROXY
+}
