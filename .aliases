@@ -11,6 +11,8 @@ alias -- -="cd -"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias gh="cd ~/github"
+alias ghs="cd ~/github/sigurdfalk"
+alias ghg="cd ~/github/gjensidige"
 
 # LS flavour
 colorflag="-G"
