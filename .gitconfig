@@ -1,6 +1,17 @@
 [user]
 	email = sigurd.falk@gmail.com
 	name = Sigurd Falk
+	signingkey = DB6B5EA040EA54E9
+
+[url "http://G015196@git/scm/"]
+	insteadOf = ssh://git@git:7999/
+[url "http://G015196@git/scm/"]
+	insteadOf = ssh://git@git.mistral.mistralnett.com:7999/
+[url "http://G015196@git/scm/"]
+	insteadOf = http://git.mistraldev.com/
+
+[commit]
+  gpgsign = true
 
 [alias]
 

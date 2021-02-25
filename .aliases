@@ -7,12 +7,42 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias -- -="cd -"
 
-# Shortcuts
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias gh="cd ~/github"
-alias ghs="cd ~/github/sigurdfalk"
-alias ghg="cd ~/github/gjensidige"
+# Navigation
+alias h="cd ~"
+
+# Symantec stop/start (https://gist.github.com/steve-jansen/61a189b6ab961a517f68)
+alias symstop="sep stop"
+alias symstart="sep start"
+
+# Abbreviations
+alias clr="clear"
+
+# Zsh
+alias hist='history | grep'
+
+# Git
+alias g="git"
+alias gc="git clone"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias gpull="git pull"
+alias gpush="git push"
+alias grs="git reset --soft HEAD~"
+
+# Terraform
+alias tf="terraform"
+alias tff="terraform fmt -recursive"
+alias tfi="terraform init"
+alias tfv="terraform validate"
+alias tfp="terraform plan"
+alias tfa="terraform apply"
+
+# kubectl
+alias k="kubectl"
+
+# IntelliJ
+alias idea="open -na 'IntelliJ IDEA.app' --args '$@'"
 
 # LS flavour
 colorflag="-G"

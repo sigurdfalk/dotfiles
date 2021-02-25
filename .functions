@@ -7,3 +7,11 @@ function gpx() {
 	export http_proxy=$HTTP_PROXY
 	export https_proxy=$HTTP_PROXY
 }
+
+# Unset webguard proxy
+function unsetgpx() {
+	unset HTTP_PROXY
+	unset HTTPS_PROXY
+	unset http_proxy
+	unset https_proxy
+}
