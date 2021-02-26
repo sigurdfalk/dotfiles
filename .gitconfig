@@ -1,7 +1,7 @@
 [user]
 	email = sigurd.falk@gmail.com
 	name = Sigurd Falk
-	signingkey = DB6B5EA040EA54E9
+	signingkey = D4613099A5632248
 
 [url "http://G015196@git/scm/"]
 	insteadOf = ssh://git@git:7999/
